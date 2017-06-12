@@ -1,0 +1,21 @@
+.toptable{ width:100%; text-align:center; height:70; padding:0px; margin:0px; position:relative; top:5px
+  border:black 1px; font-size: 50px; align-self: center;}
+.greeting{text-align:center;position:relative; top:200px;font-style:italic;
+  font-size:140px;color: black}
+
+#blackbackgroundcolor{background-color:white}
+#logo{position:absolute; top:70px;right:5px;}
+.toptabletd{text-align:center ; background-color: gray;color: white}
+a:link {color:;}		/* 未被访问的链接 */
+a:visited {color:black;}	/* 已被访问的链接 */
+a:hover {color:#fffff0;}	/* 鼠标指针移动到链接上 */
+a:active {color:#708090;}
+
+form {position: absolute; top:200px; left: 350px; }
+input{height:50px; width:200px}
+td{width: 33%}
+video{position: relative;left:5px; top:5px}
+
+th{text-align: left;}
+
+.projecttable{ position:relative; top:150px }

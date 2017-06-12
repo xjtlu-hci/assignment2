@@ -1,0 +1,10 @@
+p{text-align:left;
+ }
+body{ background : url(resource/BG1.jpg) repeat;
+      heght:100%;
+      width:100%;
+      position:absolute;
+      background-size:cover;
+    }
+font {font-size:24px ;
+     }

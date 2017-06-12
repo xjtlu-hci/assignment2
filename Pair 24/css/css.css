@@ -1,0 +1,12 @@
+/* CSS Document */
+body, html, div, blockquote, img, label, p, h1, h2, h3, h4, h5, h6, pre, ul, ol,
+li, dl, dt, dd, form, a, fieldset, input, th, td
+{margin: 0; padding: 0; border: 0; outline: none;}
+body {	font-family: "微软雅黑";font-size: 14px;color:#000000;line-height: 25px;text-align:left; background:#fff;}
+td,th {font-family: "微软雅黑";font-size: 14px;color: #000000;}
+a {color: #000000;} 
+A:link {TEXT-DECORATION: none;}
+A:visited {TEXT-DECORATION: none;}
+A:hover {TEXT-DECORATION: none;color: #ffffff;}
+ul,li{list-style-type:none;}
+.clearit{clear:both;}

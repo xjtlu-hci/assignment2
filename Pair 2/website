@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+<head>
+  <title>HTML WORKSHOP</title>
+  <meta name="author" content="Tivon">
+  <style>
+  .CR {color:red}
+  .CB {color:Blue}
+  .BP {background:purple}
+  .BLG {background:lightgrey}
+  table, td, th {border: 1px solid black; padding:60px}
+  td {color:purple}
+  </style>
+</head>
+<body>
+  <section>
+    <div style= font-size:50pt><b>DESIGN <br>STUDIO</b></div>
+    <div style="font-size:50pt; position:absolute; top:7px; left: 350px" class="CR">
+      We create change <br>through design</div>
+      <div style="height:120px; width:100px; border-left:2px #000 solid; position:absolute;top:25px; left:300px"></div>
+      <div style="height:4810px; width:100px; border-left:2px #000 solid; position:absolute;top:1px; left:1070px"></div>
+      <form>
+        <div style="position:absolute; top:50px; left:850px">
+          <input type="text" name="message"><input type="submit" value="Search"><hr><br>Want to talk?<br><a href="http://www.XJTLU.edu.cn">Contact us</a></div>
+        </form>
+      </section>
+      <section>
+        <div style="position:absolute; top:220px"><img src="STUDIO1.jpeg" width="60%"></div>
+        <div style="background:lightblue; font-size:30pt; width:25%; position:absolute;top:545px;left:70px">Our design studio!</div>
+        <div style="position:absolute; top:225px; right:200px"><img src="STUDIO2.JPG" width=105%></div>
+        <div style="font-size:30pt; color:lightgrey"><b>Design the beauty of life&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp--&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCreate the legend of design</b></div>
+        <div style="background:lightblue; font-size:30pt; width:35%; position:absolute;top:541px;left:620px">Working in design studio!</div>
+        <div style="background:yellow;width:16.5%;position:relative; top:340px;left:400px">
+          <a href="这里需要一个链接关于更多studio图片">More pictures about our studio</a></div>
+        </section>
+        <div style="font-size:30pt;position:absolute; top:565px;left:40px"><table>  <! 表格>
+          <thead>
+            <tr> <th> <a href="#chapter1" >About us</a></th> <th><a href="#chapter2">Projects</a></th><th><a href="#chapter3">Suggestions</a></th></tr>
+          </thead></div>
+          <div style="position:relative;top:335px"><hr></hr></div></table>
+          <section>
+            <h1><b><a name="chapter1"><div class="BLG" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAbout us</div></a></b></h1>
+            <p>Our Designers</p>
+            <ul>
+              <li>Tom</li>
+              <div style="font-size:15pt"><p> djskafjasksadsadsadsadsadsadsadsadsadsadsadsadasklfjas</p></div>
+              <img src="Designer2.jpg" width=300 height=225>
+              <li>Peter</li>
+              <div style="font-size:15pt"><p> djskafjasklfjdsadsadasdsadsadasdsadasklfjas</p></div>
+              <img src="Designer3.jpg" width=300 height=225>
+              <div style="font-size:30pt;position:absolute;top:589px;left:600px"><li>Amy</li> <! positiion absolute>
+                <div style="font-size:15pt"><p>dsadsadsadaaaaaaaaaaaaasdas</p></div>
+                <img src="Designer1.jpg" width=300 height=225>
+                <li>Jack</li>
+                <div style="font-size:15pt"><p> djskafjaskldddddsadsadasdaaaaaaasadsafjasklfjas</p></div>
+                <img src="Designer4.jpeg" width=300 height=225></ul>
+              </section>
+              <div style="font-size:30pt;position:absolute; top:1250px;left:1px"><table>  <!表格>
+                <thead>
+                  <tr> <th> <a href="#chapter1" >About us</a></th> <th><a href="#chapter2">Projects</a></th><th><a href="#chapter3">Suggestions</a></th></tr>
+                </thead></div>
+                <div style="position:relative;top:381px"><hr></hr></div></table>
+                <section>
+                  <h1><b><a name="chapter2"><div class="BLG">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspProjects</div></a></b></h1>
+                  <ul>
+                    <li>Canteen</li>
+                    <div style="font-size:15pt"><p>dsadsaaaaaaaadsdsadsadsa</p></div>
+                    <img src="Canteen.jpg" width=300 height=225> <img src="Canteen2.jpg"width=300 height=225> <img src="Canteen3.jpg"width=300 height=225>
+                    <li>Study Space</li>
+                    <div style="font-size:15pt"><p>dsadasdsadsadsaddsadsadsa</p></div>
+                    <img src="Study space.jpg" width=400 height=300> <img src="Study space2.jpg"width=400 height=300>
+                    <li>Automobile</li>
+                    <div style="font-size:15pt"><p>dsdasdsadsadsadsadadsadsadsa</p></div>
+                    <img src="Automobile.jpg"width=500 height=375></ul>
+                  </section>
+                  <div style="font-size:30pt;position:absolute; top:1800px;left:1px"><table>  <!表格>
+                    <thead>
+                      <tr> <th> <a href="#chapter1" >About us</a></th> <th><a href="#chapter2">Projects</a></th><th><a href="#chapter3">Suggestions</a></th></tr>
+                    </thead></div>
+                    <div style="position:relative;top:381px"><hr></hr></div></table>
+                    <section>
+                      <h1><b><a name="chapter3"><div class="BLG">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSuggestions</div></a></b></h1>
+                      <form>
+                        <div style="font-size:15pt"><p>Your name:</p></div>
+                        <textarea rows="1" cols="15" name="name">Your name
+                        </textarea>
+                        <div style="font-size:15pt">Gender:<br></div>
+                        <input type="radio" name="gender" value="Male" checked><div style="font-size:10pt">Male</div><input type="radio" name="gender" value="Female"><div style="font-size:10pt">Female</div>
+                        <div style="font-size:15pt"><p>Please enter your age:</p></div>
+                        <input type="text" style="width:20px" name="age">
+                        <div style="font-size:15pt"><p>E-mail:</p></div>
+                        <input type="text" style="width:270px"name="e-mail">
+                        <div style="font-size:15pt"><p>Please enter your suggestions here</p></div>
+                        <textarea rows="5" cols="135" name="suggestions">Please enter your suggestions here
+                        </textarea>
+                        <input type="submit" value="Send"><br>
+                        </form>
+                      </section>
+                      <div style="position:absolute;top:-3540px; left:914px "> <a href="http://www.weibo.com"><img src="Weibo.jpeg" width=60 height=24></a></div>
+                      <div style="position:absolute;top:-3498px; left:900px "> <a href="http://www.wechat.com"><img src="Wechat.png" width=50 height=50></a></div>
+                      <div style="position:absolute;top:-3491px; left:950px "> <a href="http://www.qq.com"><img src="QQ.jpg" width=36 height=36></a></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+          </body>
+          </html>

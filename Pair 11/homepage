@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>YD Design Studio/homepage</title>
+  <meta name="Zishi.Zhao/Xiaoxi.Zhao">
+
+  <style>
+   table, th {border: 0px solid; font-size: 20px; background-color:lightgray; width: 30%; padding: 5px; margin: 0 auto;}
+   body{text-align:center;}
+  </style>
+
+  <link href="css.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+    <img src="resource/top.jpg" width="100%" height="40">
+    <br>
+    <br>
+    <img src="resource/yd.png" height="150">
+    <br>
+    <br>
+  <table>
+    <thead>
+     <tr><th><a href="homepage.HTML">About Us</a>   /     <a href="projects.HTML">Projects</a>    /     <a href="contect us.HTML">Contect us</a>  </th></tr>
+    </thead>
+  </table>
+    <br>
+    <div style="border: 1px solid; width: 50%; padding: 5px; position:absolute; left:25%;">
+    <p>YD design stuio is mainly focus on product design. We have a great passion for the new style, unique, undiscovered and futureism design.
+       We could apply for many different design areas, such as kitchen design, telephone design, furniture design and product design. You could find
+         our designs in this website. If you like our designs, don't forget to subscribe!<br><br>
+         <a href="http://www.wechat.com"><img src="resource/wechat.png" width="25px" height:"25px" padding:"10px"></a>
+         <a href="http://www.qq.com"><img src="resource/QQ.png" width="25px" height:"25px" padding:"10px"></a>
+         <a href="http://www.weibo.com"><img src="resource/weibo.png" width="25px" height:"25px" padding:"10px"></a>
+         <a href="http://www.pinterest.com"><img src="resource/pin.jpg" width="25px" height:"25px" padding:"10px"></a>
+         <a href="http://www.instagram.com"><img src="resource/inst.jpg" width="25px" height:"25px" padding:"10px"></a>
+         <a href="http://www.facebook.com"><img src="resource/facebook.jpg" width="25px" height:"25px" padding:"10px"></a>
+<hr>
+    <h1>Business Partner<br><br>
+      <img src="resource/apple.jpg" width="130px" height="130px" padding="10px">
+      <img src="resource/xjtlu.jpg" width="130px" height="130px" padding="10px">
+      <img src="resource/meizu.jpg" width="130px" height="130px" padding="10px">
+              </div>
+ </body>
+</html>

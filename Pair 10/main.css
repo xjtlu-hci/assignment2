@@ -1,0 +1,173 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;}body{margin:0;}a:focus{outline:thin dotted;}
+
+#pagetop {position: fixed;
+    line-height:30px;
+    background-color:#000000;
+    top: 0px;
+    height:80px;
+    width:3000px;
+    padding:20px;
+    z-index: 2;/*()ง •̀_•́)งcoverage up up*/
+
+ }
+
+
+ .pagetoplink1 {text-decoration:none; color:#FFFFFF;
+ position: fixed;
+ font-size: 20;
+ left:50px;
+ top: 25px;
+ z-index: 3;}/*ヾ (o ° ω ° O ) ノ゙text up up up*/
+ .pagetoplink1:hover{text-decoration:none; color:red;}/* (╯‵□′)╯︵┻━┻ mouse move on to it turn to red*/
+
+
+ .pagetoplink2 {text-decoration:none; color:#FFFFFF;
+ position: fixed;
+ font-size: 20;
+ left:150px;
+ top: 25px;
+z-index: 3;}/*(╯‵□′)╯︵┻━┻ text up up up*/
+ .pagetoplink2:hover{text-decoration:none; color:red;}/* (╯‵□′)╯︵┻━┻ mouse move on to it turn to red*/
+
+ .pagetoplink3 {text-decoration:none; color:#FFFFFF;
+ position: fixed;
+ font-size: 20;
+ left:260px;
+ top: 25px;
+z-index: 3;}
+ .pagetoplink3:hover{text-decoration:none; color:red;}/* (╯‵□′)╯︵┻━┻ mouse move on to it turn to red*/
+
+   .pageBT{text-decoration:none; color:#FFFFFF;/* ╮(╯_╰)╭make a botton*/
+        position:absolute;
+        font-family:"New Cicle";
+        font-size: 42;
+        left: 330px;
+        top:650px;  }
+   .pageBT:hover{text-decoration:none; color:red;}/* (╯‵□′)╯︵┻━┻ mouse move on to it turn to red*/
+
+
+
+
+
+ #page1link1 {position:fixed;/*LOGO, should to be fixed*/
+ top:13px;
+ left:45%;/*LOGO, should to be in mid part*/
+ z-index: 3;
+ }
+
+ #page1pic{
+   z-index: -10;/*background, lowest*/
+
+     position:absolute;
+     left:2%;
+     width:40%;
+     top:8%;
+
+
+ }
+ #page1text
+ {position:absolute;
+    font-family:"New Cicle";/*our motto, different font*/
+    font-size: 60;
+    left: 184px;
+    top: 390px;
+    color:white;
+  }
+
+ #page1intro
+    {position:absolute;
+      color:white;
+       font-size: 20;
+       left: 233px;
+       top: 526px;
+     }
+
+#page2text1
+{position: absolute;
+font-size: 70;
+left:200px;
+top: 72px;
+z-index: -10}
+
+.page2text2 {text-decoration:none; color:#000;
+position: absolute;
+font-size: 20;
+left:50px;
+top: 500px;}
+.page2text2:hover{text-decoration:none; color:red;}/* (╯‵□′)╯︵┻━┻ mouse move on to it turn to red*/
+
+.page2text3 {text-decoration:none; color:#000;
+position: absolute;
+font-size: 20;
+left:50px;
+top: 550px;}
+.page2text3:hover{text-decoration:none; color:red;}/* (╯‵□′)╯︵┻━┻ mouse move on to it turn to red*/
+
+.page2text4 {text-decoration:none; color:#000;
+position: absolute;
+font-size: 20;
+left:50px;
+top: 600px;}
+.page2text4:hover{text-decoration:none; color:red;}/* (╯‵□′)╯︵┻━┻ mouse move on to it turn to red*/
+
+.page2text5 {text-decoration:none; color:#000;
+position: absolute;
+font-size: 20;
+left:50px;
+top: 650px;}
+.page2text5:hover{text-decoration:none; color:red;}/* (╯‵□′)╯︵┻━┻ mouse move on to it turn to red*/
+
+.page2text6 {text-decoration:none; color:#000;
+position: absolute;
+font-size: 20;
+left:50px;
+top: 700px;}
+.page2text6:hover{text-decoration:none; color:red;}/* (╯‵□′)╯︵┻━┻ mouse move on to it turn to red*/
+
+.page2text7 {text-decoration:none; color:#000;
+position: absolute;
+font-size: 20;
+left:50px;
+top: 750px;}
+.page2text7:hover{text-decoration:none; color:red;}/* (╯‵□′)╯︵┻━┻ mouse move on to it turn to red*/
+
+.page2text8 {text-decoration:none; color:#000;
+position: absolute;
+font-size: 20;
+left:250px;
+top: 500px;}
+.page2text8:hover{text-decoration:none; color:red;}/* (╯‵□′)╯︵┻━┻ mouse move on to it turn to red*/
+
+
+.page3text1{
+  position: absolute;/*(°ー°〃)*/
+  font-size: 30;
+  left:12%;
+  top: 30%;
+  color: white;
+}
+
+.page3text2{
+  position: absolute;/*Ծ‸Ծ*/
+  font-size: 30;
+  left:66%;
+  top: 30%;
+  color: white;
+}
+.form{
+  position: absolute;
+  left:68%;
+  top: 45%;
+  color: white;/*(┙>∧<)┙へ┻┻ form*/
+}
+.page3icon{
+position: absolute;
+left:18%;
+top: 45%;}/*(┙>∧<)┙へ┻┻Three icons as contact*/
+
+#page3pic{
+  z-index: -10;
+   position:absolute;
+    left:2%;
+    width:40%;
+    top:8%;}/*(ง •̀_•́)ง beauty sis as background*/

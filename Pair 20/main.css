@@ -1,0 +1,56 @@
+/* Global */
+/* define the format for all the content in the web page */
+* { margin: 0; padding: 0; }
+body { font-size: 12px; letter-spacing: 0.1em; font-family: arial, georgia, verdana; color: #848484; line-height: 16px}
+/* define the size for the main container */
+#main_container { width: 970px; margin: 0 auto; }
+.clear { clear: both; }
+/* define the font size and color for the headings and paragraph */
+h1,h2,h3,p { margin: 10px 0 17px; }
+h3 { font-size: 12px; color:#525252; font-weight:normal;}
+/* define the color and reaction of a link */
+a { color: #525252; text-decoration: none; }
+a:hover { text-decoration: underline; }
+img { border: none; }
+/* picture's opacity will decrease when the mouse hover the picture */
+a:hover img{filter:alpha(Opacity=80);-moz-opacity:0.8;opacity: 0.8;}
+
+/* Header */
+/* define the size for the menu container and the format of list*/
+#menu_container { width: 960px; padding: 20px 15px; border-bottom: 1px solid #eee; }
+#menu_container ul { list-style-type: none; }
+#menu_container ul li { margin-bottom: 7px; }
+#menu_container .left_list { float: left; }
+/* define the position of the logo */
+.logo_new { float: left; margin-right: 20px; }
+
+
+/** Content **/
+/* define the size for the content box */
+#content { width: 990px; float: left; margin-top: 15px; }
+/* define the size for each container that contains different sizes of picture, the image size and text format was also defined */
+#content .featured_box { width: 204px; float: left; margin-right: 0; color:#afafaf; }
+#content .featured_box img { width: 204px; height: 204px; }
+#content .featured_box p { font-size: 10px; color:#afafaf; line-height: 13px;}
+
+/* define the size for each container that contains different sizes of picture, the image size and text format was also defined */
+#content .featured_box2 { width: 451px; float:left; margin-right: 0; color:#afafaf; }
+#content .featured_box2 img { width: 451px; height: 451px; }
+#content .featured_box2 p { font-size: 10px; color:#afafaf; line-height: 13px;}
+/* define the size for each container that contains different sizes of picture, the image size and text format was also defined */
+#content .featured_box3 { width: 471px; float: left; margin-left: 0; color:#afafaf; }
+#content .featured_box3 img { width: 471px; height: 204px; }
+#content .featured_box3 p { font-size: 10px; color:#afafaf; line-height: 13px;}
+/* define the size for each container that contains different sizes of picture, the image size and text format was also defined */
+#content .featured_box4 { width: 204px; float: left; margin-left: 57 ; color:#afafaf; }
+#content .featured_box4 img { width: 204px; height: 204px; }
+#content .featured_box4 p { font-size: 10px; color:#afafaf; line-height: 13px;}
+/* define the size for each container that contains different sizes of picture, the image size and text format was also defined */
+#content .featured_box5 { width: 204px; float: left; margin-left: 43; color:#afafaf; }
+#content .featured_box5 img { width: 204px; height: 204px; }
+#content .featured_box5 p { font-size: 10px; color:#afafaf; line-height: 13px;}
+
+#content .featured_box6 { width: 204px; float: left; margin-right: 0; color:#afafaf; }
+
+/* define the size for the sidebar*/
+#content .single_sidebar { float: left; width: 200px; margin-right: 63px; margin-top: 0;}

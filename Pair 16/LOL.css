@@ -1,0 +1,176 @@
+
+/*code for every page*/
+body{ background-image: linear-gradient(to right, #2af598 0%, #009efd 100%);}   /*add background color(use of ingredients) to the page(for every page)*/
+.divone {position:fixed; left:60%;                                   /*the position of the words on the top(for every page)*/
+word-spacing:100px; font-size:16pt; font-family:calibri;
+ top:5%; z-index:1;}
+#logo{position: fixed; top:4%;left:3%;width:3%;}      /*posisiton of the logo, fixed to ensure it won't move*/
+/*end of codes for every page*/
+
+
+
+/*start of page one*/
+.divtwo{font-size:80pt; font-family:calibri; text-align:center;       /*the position of the big heading*/
+position:relative; top:320px;}
+.divthree{font-size:28pt; font-family:calibri; text-align:center;      /*the position of the team member*/
+position:relative; top:50px; letter-spacing:10px;}
+.divfour{font-size:16pt; font-family:calibri; text-align:center;     /*position of the slogan*/
+  position:relative; top:100px; letter-spacing:8px; }
+h1 {color:white;}                                                   /*color of the text inthe middle in the first page*/
+p.hed                                              /*color of the bar on the top (for every page)*/
+{
+width:99%;
+height:8%;
+background-color:#eef1f5;
+background-clip:content-box;
+border-top-left-radius:2em;                /*give it a roung coner*/
+border-top-right-radius:2em;
+border-bottom-left-radius:2em;
+border-bottom-right-radius:2em;
+box-shadow: 5px 5px 15px #678F93;         /*give a shadow*/
+position:fixed; top:10px;               /*fix it so that it won't move when the page flows*/
+z-index:1;                             /*pu it on the top*/
+}
+.divlone {font-size:20pt; font-family:calibri;        /*the position of the big heading downward*/
+position:relative; top:900px;left:25%; text-align:left;}
+.divlhead {font-size:56pt; font-family:calibri;     /*the position of the big heading downward*/
+position:relative; top:850px; text-align:center;}
+p.abus{position:absolute;left:20%; top:80%;     /*background box downward*/
+ width:60%;
+ height:120%;
+ background-color:#eef1f5;
+ background-clip:content-box;
+ z-index:-1;                    /*put it in the back*/
+ opacity: 0.8;                 /*give opacity*/
+ box-shadow: 15px 5px 15px #678F93;} /*give shadow*/
+/*end of css for page one*/
+
+
+
+
+/*start of page two*/
+
+h2{color:white; position:relative; text-align:center; top:150px;   /*head for page 2*/
+  font-family:arial; font-size:64pt}
+
+#phone{position:absolute;top:40%; left:62%;width:20%;  /*the three indication picture*/
+  box-shadow: 5px 5px 15px #678F93;
+}
+#phtwo{position:absolute;top:40%; left:16%;width:20%;  /*the three indication picture*/
+  box-shadow: 5px 5px 15px #678F93;
+}
+#phthree{position:absolute;top:40%; left:39%;width:20%;  /*the three indication picture*/
+  box-shadow: 5px 5px 15px #678F93;
+}
+
+/*end of the page two*/
+
+
+
+
+
+/*same css for the page five & six & seven*/
+
+.back{color:#ffa55c; position:fixed; top:15%; left:8%;  /*the back indication word*/
+    font-family:arial; font-size:18pt}
+
+.wv{font-size:28pt; font-family:calibri; position:relative;          /*style of headings for page5,6,7*/
+text-align: center; top:200px; letter-spacing: 8px; color:white}
+
+
+
+
+/*start of page 5 & 6*/
+video{position:absolute;top:36%; left:29%;}     /*the video position*/
+#arrowleft{position:fixed;top:15%; left:5%; width:5%}  /*the back arrow*/
+#arrowdown{position:absolute;top:85%;left:45%; width:8%;}      /*the arrow for indication that there are things downward*/
+#trolly{position: absolute;               /*picture position*/
+  top:107%; left: 29%;
+  width:17%;
+  }
+#sketch{vertical-align:text-top;position: absolute;   /*picture position*/
+    top:138%; left: 29%;
+    width:17%;
+    }
+#handle{vertical-align:text-top;position: absolute;   /*picture position*/
+      top:166%; left: 29%;
+      width:17%;
+      }
+#poster{position: absolute;   /*picture position*/
+        top:114%; left: 29%;
+        width:27%;
+        }
+.content{font-size: 16pt; font-family: calibri; position:absolute; top:108%; left:49%;  /*style of context in page5*/
+}
+.contenttwo{font-size: 16pt; font-family: calibri; position:absolute; top:114%; left:57%;  /*style of context in page6*/
+}
+.po{font-size: 32pt; font-family: calibri; position:relative;text-align: center;top:900px;}  /*style of heading2 in page6*/
+p.background{                                  /*background box for page5&6*/
+  position:absolute;left:25%; top:86%;
+  width:900px;
+  height:1350px;
+  background-color:#eef1f5;
+  background-clip:content-box;
+  z-index:-1;                              /*put it in the back*/
+  opacity: 0.8;                          /*give opacity*/
+  box-shadow: 15px 15px 25px #678F93;    /*give it a shadow*/
+}
+.formsix{font-family: calibri; position:absolute; top:200%; left:29%;} /*style of text in page 5&6,(also the position of the p.partone)*/
+p.parttwo{position:relative;top:150px;     /*position of explaination text*/
+}
+p.partthree{position:relative; top: 300px;width:400px;   /*position of explaination text*/
+}
+/*end of the page five & six*/
+
+
+
+/*start of the page seven*/
+.pic{position:absolute; top:33%; left:18%;  /*background box for the page*/
+  width:64%;
+  height:150%;
+  background-color:#eef1f5;
+  background-clip:content-box;
+  z-index:-1;                         /*put it to the back*/
+  box-shadow: 15px 15px 25px #678F93;  /*shadow*/
+}
+p.info{font-size: 24pt; font-family: calibri;position:relative;text-align:center;top:62%;} /*style of the explaination text*/
+#picone{width:15%;position:absolute; top:37%; left:21%;}   /*position of pictures shown*/
+#lion{width:27%;position:absolute; top:76%; left:53%;}
+#G00{width:13.5%;position:absolute; top:37%; left:37%;}
+#Gfree{width:15%;position:absolute; top:76%; left:37%;}
+#girl2{width:16%;position:absolute; top:37%; left:51%;}
+#MK{width:15%;position:absolute; top:77%; left:21%;}
+#man{width:13%;position:absolute; top:37%; left:67.5%;}
+.formseven{font-family: calibri; position:absolute; top:140%; left:35%;} /*feedback box*/
+/*start of css for page seven*/
+
+
+
+
+/*start of css for page four*/
+.div-page4-head {font-size:60pt; font-family:calibri;               /*the position and style of the big heading "Contact us"*/
+position:absolute; top:17%;left:35%}
+.div-page4-one {font-size:18pt; font-family:calibri;                /*the position and style of the title of "contact us"*/
+position:absolute; top:42%;left:24%}
+.div-page4-one2 {font-size:18pt; font-family:calibri;                /*the position and style of the content of "contact us"*/
+position:absolute; top:42%;left:35%}
+.div-page4-two {font-size:48pt; font-family:calibri;                /*the position and style of the big heading "Join us"*/
+position:absolute; top:100%;left:24%}
+.div-page4-two2 {font-size:20pt; font-family:calibri;                /*the position and style of the instruction sentence under "Join us"*/
+position:absolute; top:112%;left:24%}
+.div-page4-two3 {font-size:18pt; font-family:calibri;                /*the position and style of the content of "Join us"*/
+position:absolute; top:120%;left:24%}
+.div-page4-three {font-size:48pt; font-family:calibri;                /*the position and style of the big heading "Login"*/
+position:absolute; top:100%;left:60%}
+.div-page4-three2 {font-size:18pt; font-family:calibri;                /*the position and style of the content of "Login"*/
+position:absolute; top:112%;left:60%}
+p.backtwo
+ {position:absolute;left:20%; top:20%;
+  width:60%;
+  height:500%;
+  background-color:#eef1f5;
+  background-clip:content-box;
+  z-index:-1;                               /*put it in the back*/
+  opacity: 0.8;                            /*give it an opacity*/
+  box-shadow: 15px 5px 15px #678F93;}  /*the position and style of the white background box*/
+/*end of page 4*/

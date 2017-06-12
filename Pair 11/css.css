@@ -1,0 +1,8 @@
+body{ background : url(resource/BG1.jpg) repeat;
+      height:100%;
+      width:100%;
+      position:absolute;
+      background-size:cover;
+}
+h4{text-align:left;
+ }

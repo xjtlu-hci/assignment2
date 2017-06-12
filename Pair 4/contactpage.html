@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Page</title>
+  <meta name="author" content="Hanchu.Sun15">
+  <!--please replace your name in the content-->
+  <link href="main.css" rel="stylesheet" type="text/css">
+  <style>
+    .index{padding: 30px;background-color: yellow}
+    .index{border:2px solid black; width: 600px; height: 1000px}
+    .index{position: absolute; top: 160px; left:330px}
+    th{border:1px solid black ;padding: 20px;background-color: white}
+    a:hover {background: lightblue}
+    a:active {background: purple}
+    p:empty {color: brown}
+  </style>
+  <!--please write the style you want to change here-->
+</head>
+<!--The <head> tag is used to define the head of the HTML file, which is the container for all the head elements.-->
+<body>
+ <div style="background-color:yellow; font-size:40pt; font-family:Tahoma;text-align:center">
+   Welcome to <i><b>Lennon Tree!</i></b>
+ </div>
+ <!--The div tag can define the division and section of HTML files-->
+ <br>
+ <br>
+ <table class="index">
+  <thead>
+   <tr>
+    <th><a href="homepage.html">About Us</a></th>
+    <th><a href="designpage.html">Our Design</a></th>
+    <th><a href="contactpage.html">Contact Us</a></th>
+  </thead>
+ </table>
+ <!--HTML tables are a way to get a structured layout-->
+ <div style="position:absolute; top:375px; left:260px">
+  <form>
+    <p>Please leave your message <i><b>Here</i></b>:</p>
+    <label for="Your Name">Your Name:</label>
+    <input type="text" id="Your Name" placeholder="Your name goes here" name="Your Name" required>
+    <br>
+    <label for="Email">Email:</label>
+    <input type="text" id="Email" placeholder="Your email adress" name="Email" required>
+    <br>
+    <p>Please enter your message <i><b>Here</i></b>:</p>
+    <textarea rows="6" cols="30" name="Message">
+    </textarea>
+    <!--rows and cols indicate the size of the textarea-->
+    <br>
+    <input type="Submit" value="Submit">
+  </form>
+  <!--forms are the simplest method to send information from browser to server-->
+ </div>
+ <div style="border:2px solid black; width:255px; height:280px; margin-left:240px; margin-top:265px">
+  <table>
+  </table>
+ </div>
+ <div style="font-size:16pt; font-family:tahoma; position:absolute; bottom:295px; right:270px">
+   This is our <i><b>Contact Informantion</i></b>,<br> please choose one to contact with us.
+ </div>
+ <div style="position:absolute; bottom:120px; right:500px">
+  <a href="http://www.wechat.com"><img src="wechat_icon.png" width="120" height="120"></a>
+ </div>
+ <div style="position:absolute; bottom:120px; right:340px">
+  <a href="http://web2.qq.com"><img src="qq_icon.png" width="120" height="120"></a>
+ </div>
+ <div style="position:absolute; bottom:120px; right:180px">
+  <a href="http://www.facebook.com"><img src="facebook_icon.png" width="120" height="120"></a>
+ </div>
+</body>
+</html>

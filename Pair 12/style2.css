@@ -1,0 +1,194 @@
+body{/*Style of the body*/
+  background-color:#ffcccc; /* background color is #ffcccc*/
+  padding:0; /* There is no padding*/
+  margin:0;/* No margin*/
+}
+
+img { /*Style of the image*/
+  position:relative;
+  top:-75px; /*Move up 75px*/
+  width:100%; /*The width of the element is 100%*/
+  margin: 0px; /* There is no margin*/
+  padding:0px; /* No padding*/
+  z-index:-1; /* This element has a lower stacking order and will show under the elements with higher stacking order*/
+}
+
+h1 { /*Style of h1*/
+  color:#ffffff; /*The color of the text is #ffffff*/
+  background-color:#ff9999; /* background color is #ff9999*/
+  text-align:center; /*The element is center-anligned */
+  font-family:Cursive; /*The font is cursive*/
+  font-size:300% /* The size of the font is 300%*/
+}
+
+h4,h5 { /*Style of h4 and h5*/
+  text-align: center;  /*The element is center-anligned */
+}
+
+.navbar { /*Style of navifation menu*/
+  text-align: center;  /*The element is center-anligned */
+  font-family:Cursive; /*The font is cursive*/
+  list-style-type: none; /*There will not be a dot in front of the list*/
+  padding-top: 6px; /*The padding to the top is 6px*/
+  padding-bottom: 6px; /*The padding to the bottom is 6px*/
+  margin: auto; /* The element will be horizontally*/
+}
+
+.menu { /*Style of menu*/
+  display: inline-flex; /*The section will display horizontally*/
+}
+
+li{ /*Style of the list*/
+  float:left;  /* The element will float to the left*/
+}
+
+.nv:link, /*Set the style of the link that has not been visited*/
+.nv:visited { /*Set the style of the link to the page that has been accessed*/
+  display:block; /*block level element*/
+  position:relative; /*To move the element from its original position*/
+  left:-40px;  /*Move to left*/
+  top:-10px;  /* Move to top*/
+  width:230px; /* The width of the element is 230px*/
+  font-size:150%; /* The size of the font is 150%*/
+  font-weight:bold; /* The font will be in bold*/
+  color:#FFFFFF; /*The color of the text is #ffffff*/
+  background-color:#ff9999; /*background color is #ff9999*/
+  padding:4px; /*The padding is 4px*/
+  text-decoration:none; /* The text has no decoration*/
+  text-transform:uppercase; /*The text will be capitalized*/
+}
+
+.nv:hover,
+.nv:active { /*Set the style of the navifation menu when the mouse is floating above the elements*/
+  background-color:#cc0000; /*background color is #cc0000*/
+}
+
+.footer1 { /*Style of the footer1*/
+  display: flex; /*The section will display horizontally*/
+  text-align:center; /*The element is center-anligned */
+}
+
+.footer { /*Style of the footer1*/
+  float: left;  /*The element will float to the left*/
+  margin: 5px; /* The margin is 5px*/
+  padding: 15px; /* The padding is 15px*/
+  width: 360px;  /* The width of the element is 360px*/
+  height: 100px; /* The height of the element is 150px*/
+  font-family:Cursive; /*The font is cursive*/
+}
+
+.url:link, /*Set the style of the link that has not been visited*/
+.url:visited{ /*Set the style of the link to the page that has been accessed*/
+  font-size:150%; /*The size of the font is 150%*/
+  color:#ffffff; /*The color of the text is #ffffff*/
+}
+
+.url:hover,
+.url:active{ /*Set the style of the navifation menu when the mouse is floating above the elements*/
+  background-color:#ff9999; /*background color is #ff9999*/
+}
+
+.icon1{ /*Style of the icon1*/
+  margin-top: 60px; /* The margin to the top is 60px*/
+  position:relative; /*To move the element from its original position*/
+  left:50px; /*Move to left*/
+}
+
+.a,
+.b{ /*Style of a and b*/
+  display: flex;  /*The section will display horizontally*/
+}
+
+
+#image1{ /*Style of the image1*/
+  margin:20px 0 15px 20px; /*The margin to top, bottom, left and right*/
+  text-align:left; /*The element is left-anligned */
+  float:left; /*The element will float to the left*/
+}
+
+#p1{ /*Style of the p1*/
+  position:relative; /*To move the element from its original position*/
+  left:40px; /* Move to the left*/
+  font-family: cursive; /*The font is cursive*/
+}
+
+#p2{ /*Style of the p2*/
+  position:relative; /*To move the element from its original position*/
+  left:8px; /* Move to the left*/
+  font-family: cursive; /*The font is cursive*/
+}
+
+hr{ /*Style of the horizontal rule*/
+  height:3px; /* The height of the hr is 3px*/
+  border:none; /* No border*/
+  border-top:3px solid #ff9999; /*The border to the top is 3px and color is #ff9999*/
+  position: relative; /*To move the element from its original position*/
+  top:40px; /*Move to top*/
+}
+
+#table1{ /*Style of the table1*/
+  position:relative; /*To move the element from its original position*/
+  top:2px; /*Move to top*/
+  z-index: 1; /* This element has a higher stacking order and will show on the top of the elements with lower stacking order*/
+}
+
+#table2{ /*Style of the table2*/
+  text-align:center; /*The element is center-anligned */
+  border:1px solid #ff9999; /*The border to the top is 1px and color is #ff9999*/
+  font-family: cursive; /*The font is cursive*/
+  background-color: #ff9999; /* background color is #ff9999*/
+  color:#ffffff; /*The color of the text is #ffffff*/
+  width:70%; /*The width of the element is 70%*/
+  margin-left: 150px /*The left margin of the element is 150px*/
+}
+
+#project1,
+#project2{ /*Style of the project1 and project2*/
+  border:1px solid #ff9999; /* the border is 1px and the color is #ff9999*/
+  font-family: cursive; /*The font is cursive*/
+  background-color: #ff9999; /* background color is #ff9999*/
+  width:70%; /*The width of the element is 70%*/
+  margin-left: 150px; /*The left margin of the element is 150px*/
+}
+
+#img1,#img2{ /*Style of the img1 and img2*/
+  z-index:2; /* This element has a higher stacking order and will show on the top of the elements with lower stacking order*/
+  position:relative; /*To move the element from its original position*/
+  top:4px; /* Move to top*/
+}
+
+#part2{ /*Style of the part2*/
+  margin-left: 150px; /*The left margin of the element is 150px*/
+  background-color:#ff9999; /* background color is #ff9999*/
+  width:70%; /*The width of the element is 70%*/
+  align-items: center; /*center aligned*/
+  z-index:-1; /* This element has a lower stacking order and will show under the elements with lower stacking order*/
+}
+
+#project3{
+  display:flex; /*The section will display horizontally*/
+  font-family: cursive;  /*The font is cursive*/
+}
+
+#sticker{
+  position:absolute;; /*To move the element*/
+  left: 380px; /*Move from left*/
+  top:970px; /*Move from top*/
+}
+
+#form{ /*Style of the form*/
+  font-size:20pt; /* The size of the font is 20pt*/
+  font-family: cursive;  /*The font is cursive*/
+  text-align: center; /*The element is center-anligned */
+}
+
+h3{ /*Style of h3*/
+  font-family: cursive;   /*The font is cursive*/
+  text-indent: 150px;     /*To indent the text for 150px*/
+}
+
+#bottompicture{
+  position:relative; /*To move the element from its original position*/
+  top:60px; /* Move to top*/
+  height: 170px; /*The height is 170px*/
+}
